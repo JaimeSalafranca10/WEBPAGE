@@ -1,4 +1,20 @@
 window.SETTO_CATALOG_ITEMS = [
+    {
+    "category": "asientos",
+    "label": "Asientos",
+    "ref": "SIL-01",
+    "name": "Sillas plegables blancas",
+    "image": "https://lh3.googleusercontent.com/d/1L6pbufRvmW6YIVJua_6NP6IX3xpY9ysK",
+    "description": "Sillas plegables de plástico y metal en blanco. Ligeras, apilables y fáciles de transportar."
+  },
+  {
+    "category": "asientos",
+    "label": "Asientos",
+    "ref": "SIL-02",
+    "name": "Sillas plegables negras",
+    "image": "https://lh3.googleusercontent.com/d/1apRF0ciHMTx9V_qxtQAQnLQXjbHX_MSO",
+    "description": "Sillas plegables de plástico y metal en negro. Elegantes y resistentes, ideales para eventos corporativos."
+  },
   {
     "category": "estructuras",
     "label": "Estructura",
@@ -63,14 +79,14 @@ window.SETTO_CATALOG_ITEMS = [
     "image": "https://lh3.googleusercontent.com/d/11lxWAiBTLILqQ92gbZqv98yi4C3uoevX",
     "description": "Perchero vertical exento de diseño minimalista en color blanco, compuesto por múltiples varillas entrelazadas que forman las patas de apoyo y los ganchos superiores para colgar prendas o paraguas."
   },
-  {
-    "category": "asientos",
-    "label": "Asientos",
-    "ref": "SIL-13",
-    "name": "Puff Verde",
-    "image": "https://lh3.googleusercontent.com/d/1ugpgy16-7X0ewJZeEUuD-L2pnwQgMlra",
-    "description": "Sillón bajo de tipo puff o butaca descalzadora de base cilíndrica, tapizado completamente en tela de terciopelo verde oliva, con un respaldo semicircular decorado con costuras verticales acanaladas."
-  },
+  // {
+  //   "category": "asientos",
+  //   "label": "Asientos",
+  //   "ref": "SIL-13",
+  //   "name": "Puff Verde",
+  //   "image": "https://lh3.googleusercontent.com/d/1ugpgy16-7X0ewJZeEUuD-L2pnwQgMlra",
+  //   "description": "Sillón bajo de tipo puff o butaca descalzadora de base cilíndrica, tapizado completamente en tela de terciopelo verde oliva, con un respaldo semicircular decorado con costuras verticales acanaladas."
+  // },
   {
     "category": "asientos",
     "label": "Asientos",
@@ -222,22 +238,6 @@ window.SETTO_CATALOG_ITEMS = [
     "name": "Sombrillas",
     "image": "https://lh3.googleusercontent.com/d/1WeJrH-ylfkjIXXTXxVAvwl7oshWC9ae4",
     "description": "Parasoles de gran formato con brazo lateral y base cruciforme. Ideales para terrazas y espacios exteriores."
-  },
-  {
-    "category": "asientos",
-    "label": "Asientos",
-    "ref": "SIL-01",
-    "name": "Sillas plegables blancas",
-    "image": "https://lh3.googleusercontent.com/d/1L6pbufRvmW6YIVJua_6NP6IX3xpY9ysK",
-    "description": "Sillas plegables de plástico y metal en blanco. Ligeras, apilables y fáciles de transportar."
-  },
-  {
-    "category": "asientos",
-    "label": "Asientos",
-    "ref": "SIL-02",
-    "name": "Sillas plegables negras",
-    "image": "https://lh3.googleusercontent.com/d/1apRF0ciHMTx9V_qxtQAQnLQXjbHX_MSO",
-    "description": "Sillas plegables de plástico y metal en negro. Elegantes y resistentes, ideales para eventos corporativos."
   },
   {
     "category": "ambiente",
