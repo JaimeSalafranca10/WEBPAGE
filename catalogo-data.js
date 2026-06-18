@@ -229,7 +229,7 @@ window.SETTO_CATALOG_ITEMS = [
     "ref": "CAR-01",
     "name": "Carpas de evento",
     "image": "https://lh3.googleusercontent.com/d/1uE8A9clPbjguUQc05WWZD7T_-RsEfGf0",
-    "description": "Carpas blancas modulares con ventanas y laterales. Ideales para bodas, ferias y celebraciones al aire libre."
+    "description": "Carpas blancas modulares con ventanas y laterales. Ideales para bodas, ferias y celebraciones al aire libre. Los tamaños disponibles son 3x3, 3x6 y 6x12 metros."
   },
   {
     "category": "estructuras",
