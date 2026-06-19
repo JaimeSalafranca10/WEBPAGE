@@ -1,5 +1,45 @@
 window.SETTO_CATALOG_ITEMS = [
-    {
+  {
+    "category": "estructuras",
+    "label": "Estructuras",
+    "ref": "CAR-01",
+    "name": "Carpas de evento",
+    "image": "https://lh3.googleusercontent.com/d/1uE8A9clPbjguUQc05WWZD7T_-RsEfGf0",
+    "description": "Carpas blancas modulares con ventanas y laterales. Ideales para bodas, ferias y celebraciones al aire libre. Los tamaños disponibles son 3x3, 3x6 y 6x12 metros."
+  },
+  {
+    "category": "estructuras",
+    "label": "Estructuras",
+    "ref": "SOM-01",
+    "name": "Sombrillas",
+    "image": "https://lh3.googleusercontent.com/d/1WeJrH-ylfkjIXXTXxVAvwl7oshWC9ae4",
+    "description": "Parasoles de gran formato con brazo lateral y base cruciforme. Ideales para terrazas y espacios exteriores. El tamaño disponible es 251cm x 289cm x 289cm."
+  },
+  {
+    "category": "estructuras",
+    "label": "Estructuras",
+    "ref": "SOM-02",
+    "name": "sombrilla",
+    "image": "https://lh3.googleusercontent.com/d/1etF88m09ioRrvu7ers5wjOdbmclzIiYS",
+    "description": "Sombrilla de terraza o parasol de jardín plegada, con una lona de tejido técnico impermeable en color gris antracita, montada sobre un mástil metálico central telescópico y una base circular pesada de color negro."
+  },
+  {
+    "category": "estructuras",
+    "label": "Estructura",
+    "ref": "PER-01",
+    "name": "Perchero BURRO",
+    "image": "https://lh3.googleusercontent.com/d/1H_B3qEDAxhgi8_L3TYx0YLzsVu_t8PNE",
+    "description": "Estructura móvil para colgar ropa (tipo burro), fabricada en tubo cromado brillante, con una barra superior longitudinal para perchas y una base rectangular dotada de ruedas para transporte."
+  },
+  {
+    "category": "estructuras",
+    "label": "Estructuras",
+    "ref": "PER-02",
+    "name": "Perchero",
+    "image": "https://lh3.googleusercontent.com/d/11lxWAiBTLILqQ92gbZqv98yi4C3uoevX",
+    "description": "Perchero vertical exento de diseño minimalista en color blanco, compuesto por múltiples varillas entrelazadas que forman las patas de apoyo y los ganchos superiores para colgar prendas o paraguas."
+  },
+  {
     "category": "asientos",
     "label": "Asientos",
     "ref": "SIL-01",
@@ -16,12 +56,28 @@ window.SETTO_CATALOG_ITEMS = [
     "description": "Sillas plegables de plástico y metal en negro. Elegantes y resistentes, ideales para eventos corporativos."
   },
   {
-    "category": "estructuras",
-    "label": "Estructura",
-    "ref": "PER-01",
-    "name": "Perchero BURRO",
-    "image": "https://lh3.googleusercontent.com/d/1H_B3qEDAxhgi8_L3TYx0YLzsVu_t8PNE",
-    "description": "Estructura móvil para colgar ropa (tipo burro), fabricada en tubo cromado brillante, con una barra superior longitudinal para perchas y una base rectangular dotada de ruedas para transporte."
+    "category": "asientos",
+    "label": "Asientos",
+    "ref": "TAB-01",
+    "name": "taburete metalico blanco",
+    "image": "https://lh3.googleusercontent.com/d/1_8hK5Hz_lcJuiagpXt_vKI6e4KmLIX5A",
+    "description": "Taburete medio de chapa de acero con acabado de pintura blanca texturizada con sutiles marcas de estilo \"distressed\" o envejecido, asiento cuadrado con apertura central de agarre para transporte y patas ligeramente abiertas con tacos de goma."
+  },
+  {
+    "category": "asientos",
+    "label": "Asientos",
+    "ref": "SIL-13",
+    "name": "Sillón acolchado gris",
+    "image": "https://lh3.googleusercontent.com/d/1l7NgVyBsbkqc4d4s0cZakTRBJImUYwu7",
+    "description": "Butaca o silla de comedor, compartiendo la estructura envolvente y las patas cónicas de madera expuesta, pero con un tapizado textil en color gris azulado o azul denim apagado."
+  },
+  {
+    "category": "asientos",
+    "label": "Asientos",
+    "ref": "SIL-14",
+    "name": "Silla madera plegable",
+    "image": "https://lh3.googleusercontent.com/d/1QZwxEXkvCFSuy1Im3Z6_LL_HADqgDLM2",
+    "description": "Elegante silla plegable de madera de teca con un diseño clásico de lamas tanto en el asiento como en el respaldo ergonómico, ideal para ofrecer la máxima comodidad y estilo en cualquier espacio."
   },
   {
     "category": "asientos",
@@ -32,12 +88,28 @@ window.SETTO_CATALOG_ITEMS = [
     "description": "Taburete alto de estilo industrial (tipo Tolix elevado) con estructura de acero pintado en negro mate, reposapiés perimetral soldado, refuerzo en cruz bajo el asiento y un plano superior de madera oscura con veta marcada."
   },
   {
-    "category": "asientos",
-    "label": "Asientos",
-    "ref": "SIL-13",
-    "name": "Sillón acolchado azul",
-    "image": "https://lh3.googleusercontent.com/d/1l7NgVyBsbkqc4d4s0cZakTRBJImUYwu7",
-    "description": "Butaca o silla de comedor de la misma línea de diseño que la anterior, compartiendo la estructura envolvente y las patas cónicas de madera expuesta, pero con un tapizado textil en color gris azulado o azul denim apagado."
+    "category": "mobiliario",
+    "label": "Mobiliario",
+    "ref": "MES-01",
+    "name": "Mesas rectangulares",
+    "image": "https://lh3.googleusercontent.com/d/1aGqZ09c_kkpQfhxLKhTVkdNB7RxuDDKQ",
+    "description": "Mesas plegables resistentes, perfectas para banquetes, bodas y eventos corporativos. Disponibles en distintas medidas."
+  },
+  {
+    "category": "mobiliario",
+    "label": "Mobiliario",
+    "ref": "MES-02",
+    "name": "Mesas redondas altas",
+    "image": "https://lh3.googleusercontent.com/d/18KsephheeNNP4k5fMnZovBvSTnwE4AAM",
+    "description": "Mesas cocktail de pie, ideales para zonas de cóctel y networking. Disponibles con funda elástica blanca."
+  },
+  {
+    "category": "mobiliario",
+    "label": "mobiliario",
+    "ref": "MES-07",
+    "name": "Mesa circular plegable",
+    "image": "https://lh3.googleusercontent.com/d/103pqaPX-jWr3Xlv6p2_E3RN4tJbUwenj",
+    "description": "Práctica mesa plegable redonda es perfecta para banquetes, picnics y cualquier evento en interiores o exteriores. Cuenta con una parte superior de polietileno de alta densidad, resistente y fácil de limpiar. Sus patas de metal plateado son estables y se pliegan rápidamente para un almacenamiento compacto. Sus medidas son 122 cm de diámetro y 75 cm de alto."
   },
   {
     "category": "mobiliario",
@@ -71,22 +143,6 @@ window.SETTO_CATALOG_ITEMS = [
     "image": "https://lh3.googleusercontent.com/d/1_lg2U-ql7KGWMGsyr9i1Wcz1hG0peI7Z",
     "description": "Mesa auxiliar de centro con un tablero circular texturizado en acabado terrazo o granito oscuro con motas claras, sostenido por una robusta base metálica negra con estructura en forma de \"X\"."
   },
-  {
-    "category": "estructuras",
-    "label": "Estructuras",
-    "ref": "PER-02",
-    "name": "Perchero",
-    "image": "https://lh3.googleusercontent.com/d/11lxWAiBTLILqQ92gbZqv98yi4C3uoevX",
-    "description": "Perchero vertical exento de diseño minimalista en color blanco, compuesto por múltiples varillas entrelazadas que forman las patas de apoyo y los ganchos superiores para colgar prendas o paraguas."
-  },
-  // {
-  //   "category": "asientos",
-  //   "label": "Asientos",
-  //   "ref": "SIL-13",
-  //   "name": "Puff Verde",
-  //   "image": "https://lh3.googleusercontent.com/d/1ugpgy16-7X0ewJZeEUuD-L2pnwQgMlra",
-  //   "description": "Sillón bajo de tipo puff o butaca descalzadora de base cilíndrica, tapizado completamente en tela de terciopelo verde oliva, con un respaldo semicircular decorado con costuras verticales acanaladas."
-  // },
   {
     "category": "asientos",
     "label": "Asientos",
@@ -176,22 +232,6 @@ window.SETTO_CATALOG_ITEMS = [
     "description": "Sofá modular de tres plazas de líneas rectas y diseño contemporáneo, tapizado en tela texturizada de color beige claro, con cojines de asiento y respaldo fijos, reposabrazos cuadrados y patas cortas de madera expuestas."
   },
   {
-    "category": "estructuras",
-    "label": "Estructuras",
-    "ref": "SOM-02",
-    "name": "sombrilla",
-    "image": "https://lh3.googleusercontent.com/d/1etF88m09ioRrvu7ers5wjOdbmclzIiYS",
-    "description": "Sombrilla de terraza o parasol de jardín plegada, con una lona de tejido técnico impermeable en color gris antracita, montada sobre un mástil metálico central telescópico y una base circular pesada de color negro."
-  },
-  {
-    "category": "asientos",
-    "label": "Asientos",
-    "ref": "TAB-01",
-    "name": "taburete metalico blanco",
-    "image": "https://lh3.googleusercontent.com/d/1_8hK5Hz_lcJuiagpXt_vKI6e4KmLIX5A",
-    "description": "Taburete medio de chapa de acero con acabado de pintura blanca texturizada con sutiles marcas de estilo \"distressed\" o envejecido, asiento cuadrado con apertura central de agarre para transporte y patas ligeramente abiertas con tacos de goma."
-  },
-  {
     "category": "asientos",
     "label": "Asientos",
     "ref": "TAB-02",
@@ -208,36 +248,12 @@ window.SETTO_CATALOG_ITEMS = [
     "description": "Taburete auxiliar bajo de estilo rústico-industrial, construido con una estructura robusta y compacta de madera maciza de pino con acabado envejecido, asiento cuadrado de bordes rectos y travesaños reforzados que actúan como reposapiés."
   },
   {
-    "category": "mobiliario",
-    "label": "Mobiliario",
-    "ref": "MES-01",
-    "name": "Mesas rectangulares",
-    "image": "https://lh3.googleusercontent.com/d/1FP-vPX0P-xwNIjEbrUTPbgNXkY45scn4",
-    "description": "Mesas plegables resistentes, perfectas para banquetes, bodas y eventos corporativos. Disponibles en distintas medidas."
-  },
-  {
-    "category": "mobiliario",
-    "label": "Mobiliario",
-    "ref": "MES-02",
-    "name": "Mesas redondas altas",
-    "image": "https://lh3.googleusercontent.com/d/18KsephheeNNP4k5fMnZovBvSTnwE4AAM",
-    "description": "Mesas cocktail de pie, ideales para zonas de cóctel y networking. Disponibles con funda elástica blanca."
-  },
-  {
-    "category": "estructuras",
-    "label": "Estructuras",
-    "ref": "CAR-01",
-    "name": "Carpas de evento",
-    "image": "https://lh3.googleusercontent.com/d/1uE8A9clPbjguUQc05WWZD7T_-RsEfGf0",
-    "description": "Carpas blancas modulares con ventanas y laterales. Ideales para bodas, ferias y celebraciones al aire libre. Los tamaños disponibles son 3x3, 3x6 y 6x12 metros."
-  },
-  {
-    "category": "estructuras",
-    "label": "Estructuras",
-    "ref": "SOM-01",
-    "name": "Sombrillas",
-    "image": "https://lh3.googleusercontent.com/d/1WeJrH-ylfkjIXXTXxVAvwl7oshWC9ae4",
-    "description": "Parasoles de gran formato con brazo lateral y base cruciforme. Ideales para terrazas y espacios exteriores."
+    "category": "ambiente",
+    "label": "Ambiente",
+    "ref": "CON-01",
+    "name": "Congelador",
+    "image": "https://lh3.googleusercontent.com/d/11V_pVAnKUV2xDugVaNHPWkyWutVrwVAA",
+    "description": "Congelador de 137 litros para eventos."
   },
   {
     "category": "ambiente",

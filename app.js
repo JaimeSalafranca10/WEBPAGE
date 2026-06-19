@@ -86,4 +86,20 @@ document.addEventListener('DOMContentLoaded', () => {
   renderCatalog();
   initCatalogFilters();
   initLightbox();
+
+  // --- NUEVA LÓGICA PARA ASENTOS POR DEFECTO ---
+  // 1. Buscamos el botón de asientos y todas las tarjetas creadas
+  const defaultButton = document.querySelector('[data-filter="asientos"]');
+  const cards = document.querySelectorAll('[data-category]');
+
+  if (defaultButton && cards.length) {
+    // 2. Marcamos visualmente el botón de asientos como activo
+    const filterButtons = document.querySelectorAll('[data-filter]');
+    filterButtons.forEach((item) => item.classList.toggle('active', item === defaultButton));
+
+    // 3. Ocultamos las tarjetas que no correspondan a "asientos"
+    cards.forEach((card) => {
+      card.classList.toggle('hidden', card.dataset.category !== 'asientos');
+    });
+  }
 });
