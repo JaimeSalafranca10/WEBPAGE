@@ -76,7 +76,7 @@ window.SETTO_CATALOG_ITEMS = [
     "label": "Asientos",
     "ref": "SIL-14",
     "name": "Silla madera plegable",
-    "image": "https://lh3.googleusercontent.com/d/1QZwxEXkvCFSuy1Im3Z6_LL_HADqgDLM2",
+    "image": "https://lh3.googleusercontent.com/d/1X8Dm3BQgov7N66rAHVzBjCtZKJmc7OnA",
     "description": "Elegante silla plegable de madera de teca con un diseño clásico de lamas tanto en el asiento como en el respaldo ergonómico, ideal para ofrecer la máxima comodidad y estilo en cualquier espacio."
   },
   {
