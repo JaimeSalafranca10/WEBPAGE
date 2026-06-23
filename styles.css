@@ -133,8 +133,8 @@ a { color: inherit; }
   background: var(--negro);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: clamp(1.5rem, 3vw, 3.5rem);
+  justify-content: flex-start; /* <-- CAMBIA 'center' POR 'flex-start' */
+  padding: clamp(3rem, 6vh, 6rem) clamp(1.5rem, 3vw, 3.5rem); /* <-- Añadimos más margen arriba (3rem a 6rem) para que no se pegue al menú superior */
   gap: 0;
 }
 
@@ -1020,24 +1020,29 @@ footer {
   color: var(--terra);
 }
 
-@media (max-width: 900px) {
-  .shell { grid-template-columns: 1fr; grid-template-rows: 48px 40px 1fr; min-height: 100vh; }
-  .topbar { grid-column: 1; grid-row: 1; padding: 0 1rem; }
-  .sidebar {
-    grid-column: 1;
-    grid-row: 2;
-    flex-direction: row;
-    height: 40px;
-    border-right: none;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
-    padding: 0 1rem;
-    justify-content: center;
+@media (max-width: 50px) {
+  .shell { 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; /* Deja que cambie según el contenido, no dejes filas fijas */
+    width: 100%;
+    min-height: auto;
   }
-  .content { grid-column: 1; grid-row: 3; }
+  
+  .panel {
+    min-height: auto !important; /* Elimina el cálculo de pantalla completa */
+    height: auto !important;
+  }
 
-  #p-inicio { grid-template-columns: 1fr; }
+  #p-inicio { 
+    grid-template-columns: 1fr; 
+    height: auto !important; /* Quita el height: 100% que tenías antes */
+  }
+
+  .inicio-left { 
+    padding: 2rem 1.5rem; /* Ajusta el espaciado para que no sature en móvil */
+  }
+  
   .inicio-right { display: none; }
-  .inicio-left { padding: 1.5rem; }
 
   .q-layout { grid-template-columns: 1fr; }
   .q-visual { display: none; }
