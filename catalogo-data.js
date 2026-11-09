@@ -276,7 +276,7 @@ window.SETTO_CATALOG_ITEMS = [
     "label": "Ambiente",
     "ref": "SON-01",
     "name": "Equipo de sonido",
-    "image": "https://lh3.googleusercontent.com/d/1imMn7kL00uxEOAGS2cQm4Y0uocWEcG93",
+    "image": "https://lh3.googleusercontent.com/d/1w0aPfZC4UfwcYgYrJ0nApzLAGTgCTyEY",
     "description": "Sistema completo con altavoces, mixer y trípodes. Ideal para amenizar cualquier evento, boda o celebración."
   }
 ];
