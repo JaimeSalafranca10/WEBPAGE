@@ -1451,10 +1451,17 @@ footer {
 
 @media (max-width: 900px) {
   .shell { 
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto; /* Deja que cambie según el contenido, no dejes filas fijas */
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 56px auto;
     width: 100%;
     min-height: auto;
+  }
+
+  .sidebar { display: none; }
+
+  .content {
+    grid-column: 1;
+    grid-row: 2;
   }
   
   .panel {
